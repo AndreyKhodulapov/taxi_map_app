@@ -4,6 +4,7 @@ from core.models import Point, OSRMResponse
 from utils.folium_map import get_folium_map
 
 # Интересно, но сыро, что пиздец
+# TODO переписать весь синхронный код в асинхронный 
 # TODO посмотреть че там за дз на бусти
 # TODO подключить сервер и ручку с формой ввода
 # TODO апи чтоб по названию находил координаты
